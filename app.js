@@ -1,4 +1,4 @@
-const GIST_RAW_URL = 'https://gist.githubusercontent.com/cbale7218-bot/7c21a30b5a4f1a8a3892ff8236236a58/raw/10813ffb186eb1c615a4cfcfc856bd521d6f11b2/gistfile1.txt';
+const GIST_RAW_URL = 'https://gist.githubusercontent.com/cbale7218-bot/7c21a30b5a4f1a8a3892ff8236236a58/raw/724930451e40fd2373aaf5a309735bd51c5cf40c/gistfile1.txt';
 
 const REFRESH_MS = 5000;
 
