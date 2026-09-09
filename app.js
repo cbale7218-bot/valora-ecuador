@@ -1,4 +1,4 @@
-const GIST_RAW_URL = 'https://gist.githubusercontent.com/cbale7218-bot/7c21a30b5a4f1a8a3892ff8236236a58/raw/49201a22aa1df5534eb6247566f2e7af1024559e/gistfile1.txt';
+const GIST_RAW_URL = 'https://gist.githubusercontent.com/cbale7218-bot/7c21a30b5a4f1a8a3892ff8236236a58/raw/10813ffb186eb1c615a4cfcfc856bd521d6f11b2/gistfile1.txt';
 const REFRESH_MS = 5000;
 
 const fallback = {
