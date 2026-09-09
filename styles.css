@@ -1055,50 +1055,6 @@ footer{
    RESPONSIVE — СТАРЫЙ МОБИЛЬНЫЙ ДИЗАЙН
    ========================================= */
 
-@media(max-width:850px){
-
-  .hero{
-    grid-template-columns:1fr
-  }
-
-  .hero-art{
-    display:none
-  }
-
-  .payment-layout{
-    grid-template-columns:1fr
-  }
-
-  .trust{
-    grid-template-columns:1fr
-  }
-
-  .trust>div{
-    border-right:0;
-    border-bottom:1px solid var(--line);
-    padding:12px 8px
-  }
-
-  .trust>div:last-child{
-    border-bottom:0
-  }
-
-  .benefits{
-    flex-wrap:wrap
-  }
-
-  footer{
-    flex-direction:column;
-    align-items:flex-start
-  }
-
-  .copyright{
-    text-align:left
-  }
-
-}
-
-
 @media(max-width:520px){
 
   .topbar{
@@ -1123,7 +1079,7 @@ footer{
   }
 
   .panel{
-    padding:17px
+    padding:14px
   }
 
   .panel-head{
@@ -1134,9 +1090,77 @@ footer{
     font-size:10px
   }
 
-  .detail button{
-    display:none
+
+  /* =====================================
+     КНОПКИ COPIAR НА МОБИЛЬНОМ
+     ===================================== */
+
+  .detail{
+    display:grid;
+
+    grid-template-columns:
+      36px
+      minmax(0,1fr)
+      auto;
+
+    gap:8px;
+
+    padding:11px 9px;
+
+    min-width:0;
   }
+
+  .detail > div{
+    min-width:0;
+  }
+
+  .detail-icon{
+    width:36px;
+    height:36px;
+  }
+
+  .detail small{
+    font-size:9px;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+  }
+
+  .detail strong{
+    font-size:11px;
+
+    line-height:1.35;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+  }
+
+  .detail button{
+    display:block;
+
+    width:auto;
+
+    min-width:53px;
+
+    padding:7px 7px;
+
+    border-radius:7px;
+
+    font-size:9px;
+
+    white-space:nowrap;
+  }
+
+
+  /* =====================================
+     QR FRAME
+     ===================================== */
 
   .qr-frame{
     width:235px;
@@ -1144,12 +1168,16 @@ footer{
   }
 
 
-  /* Кнопка оплаты на телефоне */
+  /* =====================================
+     КНОПКА IR AL PAGO
+     ===================================== */
 
   .hero-payment-btn{
     width:auto;
     max-width:100%;
+
     padding:12px 17px;
+
     font-size:12px
   }
 
